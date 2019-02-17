@@ -1,0 +1,10 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Pacote: ${package}
+${licensePrefix}Classe: ${nameAndExt}
+${licensePrefix}Criado em ${date} ${time} por ${user}
+${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>

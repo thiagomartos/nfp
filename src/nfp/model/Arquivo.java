@@ -124,7 +124,6 @@ public class Arquivo {
      * </pre>
      */
     public Arquivo(Cabecalho cabecalho, List<Identificacao> identificacoes, Rodape rodape) {
-        cabecalho.setTipoRegistro("10");
         this.cabecalho = cabecalho;
         this.identificacoes = identificacoes;
         this.rodape = rodape;
